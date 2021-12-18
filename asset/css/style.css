@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.Myname{
+    background-color : lightblue;
+    padding:20px;
+    border : lightblue;
+}
