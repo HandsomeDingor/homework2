@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* HEADER / NAV BAR STYLES START */
+
+header {
+  padding: 20px 35px;
+  background-color: darkslategray;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-weight: normal;
+  margin: 0;
+  font-size: 36px;
+  background-color: lightblue;
+  display:flex;
+  flex-wrap: wrap;
+ 
+
+}
+
+header a {
+  padding: 10% right;
+  text-decoration: none;
+}
+
+header nav {
+  margin: 7px 0;
+  
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+ 
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-size: 1.55vw;
+  color: lightblue;
+  text-decoration: underline 3px;
+}
+
+/* HEADER / NAVBAR STYLES END */
+main{
+  width: 100%;
+  margin: 5% 0;
+  display: block;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.aboutme{
+  margin: 20px;
+  display:flex;
+  border: 10px;
+  background-color: yellow;
+}
+
+
+.aboutme-title {
+  color:red;
+  float:left;
+  flex-wrap: wrap;
+  border-right: 2px solid black;
+}
+
+.aboutme-text{
+  display: flex;
+  padding: 0px 20px 20px 20px;
+  line-height: 1.6;
+}
+
+.work-section{
+  display: inline-flex;
+  border: 10px;
+  padding:10px;
+  margin:20px;
+  background-color: yellow;
+}
+
+.work-title h1{
+  color:green;
+  border-right: 2px solid black;
+  float:left;
+ 
+}
+.work-content{
+  display:flex;
+}
+
+.contact-section{
+  display: inline-flex;
+  border: 10px;
+  padding:10px;
+  margin:20px;
+  background-color: yellow;
+}
+.contact-section h1{
+  color:purple;
+  border-right: 2px solid black;
+
+}
+
+.contact-button a{
+  text-decoration: underline 3px;
+}
+
+.resume-section{
+  display: flex;
+  border: 10px;
+  padding:10px;
+  margin:20px;
+  background-color: yellow;
+}
