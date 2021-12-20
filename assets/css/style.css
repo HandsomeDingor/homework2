@@ -59,17 +59,19 @@ header nav ul li a {
 
 .cool-subtitle-here{
   background-image: url("../images/subtitle.jpg");
-  background-size: cover;
-
+  background-size:cover;
   background-position: 80%;
   padding: 100px 70px;
 }
 
 #subtitle{
+  display: flex;
   background-color: lightblue;
   font-size: 40px;  
   float:right;
+  flex-wrap: wrap;
   margin-top: 30px;
+  padding: 5px;
 }
 
 
@@ -126,6 +128,8 @@ main{
 .work-content{
   display:flex;
   flex-wrap: wrap;
+  padding: 10px;
+
 }
 
 .surf{
@@ -134,6 +138,7 @@ main{
   background-size: cover;
   background-position: 80%;
   padding: 100px 70px;
+  margin:40px;
 
 }
 
@@ -144,6 +149,7 @@ main{
 
   background-position: 80%;
   padding: 100px 70px;
+  margin:40px;
 }
 
 .calculator{
@@ -153,6 +159,7 @@ main{
 
   background-position: 80%;
   padding: 100px 70px;
+  margin:40px;
 }
 
 
@@ -163,6 +170,7 @@ main{
 
   background-position: 80%;
   padding: 100px 70px;
+  margin:40px;
 }
 
 .run{
@@ -172,6 +180,7 @@ main{
 
   background-position: 80%;
   padding: 100px 70px;
+  margin:40px;
 
 }
 
