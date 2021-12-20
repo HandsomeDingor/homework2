@@ -11,7 +11,7 @@ body {
 /* HEADER / NAV BAR STYLES START */
 
 header {
-  padding: 20px 35px;
+padding: 10px 0px 10px 0px;
   background-color: darkslategray;
   display: flex;
   justify-content: space-between;
@@ -20,40 +20,58 @@ header {
 
 header h1 {
   font-weight: normal;
-  margin: 0;
   font-size: 36px;
   background-color: lightblue;
-  display:flex;
-  flex-wrap: wrap;
- 
+  padding:5px 5px 5px 50px;
+  margin: 7px 0;
 
 }
 
 header a {
+
   padding: 10% right;
   text-decoration: none;
+  
 }
 
 header nav {
-  margin: 7px 0;
-  
+  margin-top: 30px;
+  text-align: center;
 }
 
 header nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+
   list-style: none;
  
 }
 
 header nav ul li a {
-  padding: 10px 15px;
+
+  padding: 20px;
   font-size: 1.55vw;
   color: lightblue;
   text-decoration: underline 3px;
+  align-items: center;
 }
+
+.cool-subtitle-here{
+  background-image: url("../images/subtitle.jpg");
+  background-size: cover;
+
+  background-position: 80%;
+  padding: 100px 70px;
+}
+
+#subtitle{
+  background-color: lightblue;
+  font-size: 40px;  
+  float:right;
+  margin-top: 30px;
+}
+
 
 /* HEADER / NAVBAR STYLES END */
 main{
@@ -77,6 +95,7 @@ main{
   float:left;
   flex-wrap: wrap;
   border-right: 2px solid black;
+  align-items: stretch;
 }
 
 .aboutme-text{
@@ -86,12 +105,17 @@ main{
 }
 
 .work-section{
-  display: inline-flex;
+  display: flex;
   border: 10px;
   padding:10px;
   margin:20px;
   background-color: yellow;
 }
+.work{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 
 .work-title h1{
   color:green;
@@ -101,7 +125,59 @@ main{
 }
 .work-content{
   display:flex;
+  flex-wrap: wrap;
 }
+
+.surf{
+  border: 2mm solid lightblue;
+  background-image: url("../images/surf.jpg");
+  background-size: cover;
+  background-position: 80%;
+  padding: 100px 70px;
+
+}
+
+.led{
+  border: 2mm solid lightblue;
+  background-image: url("../images/led.jpg");
+  background-size: cover;
+
+  background-position: 80%;
+  padding: 100px 70px;
+}
+
+.calculator{
+  border: 2mm solid lightblue;
+  background-image: url("../images/calculator.jpg");
+  background-size: cover;
+
+  background-position: 80%;
+  padding: 100px 70px;
+}
+
+
+.pastel{
+  border: 2mm solid lightblue;
+  background-image: url("../images/pastel.jpg");
+  background-size: cover;
+
+  background-position: 80%;
+  padding: 100px 70px;
+}
+
+.run{
+  border: 2mm solid lightblue;
+  background-image: url("../images/run.jpg"); 
+  background-size: cover;
+
+  background-position: 80%;
+  padding: 100px 70px;
+
+}
+
+
+
+
 
 .contact-section{
   display: inline-flex;
