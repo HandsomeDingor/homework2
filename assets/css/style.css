@@ -113,23 +113,24 @@ main{
   margin:20px;
   background-color: yellow;
 }
-.work{
+.works{
   display: flex;
-  flex-wrap: wrap;
+  width: 100%;
 }
 
 
 .work-title h1{
   color:green;
-  border-right: 2px solid black;
-  float:left;
- 
+  
+  flex-grow: 1;
+  width: 100%;
 }
 .work-content{
-  display:flex;
+  /*display:flex;*/
   flex-wrap: wrap;
   padding: 10px;
-
+  flex-grow: 3;
+  border-left: 2px solid black;
 }
 
 .surf{
@@ -141,15 +142,22 @@ main{
   margin:40px;
 
 }
+.row2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
 
 .led{
   border: 2mm solid lightblue;
   background-image: url("../images/led.jpg");
   background-size: cover;
-
   background-position: 80%;
   padding: 100px 70px;
   margin:40px;
+  flex-grow:1;
+  
+  
 }
 
 .calculator{
@@ -160,6 +168,8 @@ main{
   background-position: 80%;
   padding: 100px 70px;
   margin:40px;
+  flex-grow:1;
+  
 }
 
 
