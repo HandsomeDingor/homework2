@@ -11,7 +11,7 @@ body {
 /* HEADER / NAV BAR STYLES START */
 
 header {
-padding: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
   background-color: darkslategray;
   display: flex;
   justify-content: space-between;
@@ -85,63 +85,81 @@ main{
 }
 
 .aboutme{
-  margin: 20px;
+
   display:flex;
-  border: 10px;
-  background-color: yellow;
+
+  
 }
 
 
 .aboutme-title {
-  color:red;
+  color: blue;
   float:left;
-  flex-wrap: wrap;
-  border-right: 2px solid black;
-  align-items: stretch;
+  font-size: 30px;
+  text-align: right;
+  padding: 20px 20px 20px 72px;
+  
 }
 
 .aboutme-text{
   display: flex;
-  padding: 0px 20px 20px 20px;
+  padding: 0px 100px 20px 30px;
   line-height: 1.6;
+  border-left: 4px solid rgb(62, 7, 99);
 }
 
 .work-section{
-  display: flex;
-  border: 10px;
-  padding:10px;
-  margin:20px;
-  background-color: yellow;
+ 
+  padding: 20px;
+  
 }
 .works{
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
 }
 
+.work-title{
+  color: blue;
+  float:left;
+  font-size: 30px;
+  text-align: right;
+  padding: 20px 20px 20px 70px;
+  
+ 
+  
+}
 
 .work-title h1{
-  color:green;
+
   
-  flex-grow: 1;
-  width: 100%;
+ 
 }
 .work-content{
-  /*display:flex;*/
+  
   flex-wrap: wrap;
-  padding: 10px;
-  flex-grow: 3;
-  border-left: 2px solid black;
+  flex-grow: 2;
+
+  border-left: 4px solid rgb(62, 7, 99);
+  
+  padding: 0px 20px 20px 20px;
+  
+  
 }
 
 .surf{
   border: 2mm solid lightblue;
   background-image: url("../images/surf.jpg");
-  background-size: cover;
-  background-position: 80%;
+  background-size:cover;
+ 
   padding: 100px 70px;
   margin:40px;
 
 }
+.row4{
+  
+}
+
 .row2{
   display: flex;
   flex-wrap: wrap;
@@ -152,10 +170,10 @@ main{
   border: 2mm solid lightblue;
   background-image: url("../images/led.jpg");
   background-size: cover;
-  background-position: 80%;
+
   padding: 100px 70px;
   margin:40px;
-  flex-grow:1;
+  flex-grow: 1;
   
   
 }
@@ -165,10 +183,10 @@ main{
   background-image: url("../images/calculator.jpg");
   background-size: cover;
 
-  background-position: 80%;
+
   padding: 100px 70px;
   margin:40px;
-  flex-grow:1;
+  flex-grow: 1;
   
 }
 
@@ -177,10 +195,10 @@ main{
   border: 2mm solid lightblue;
   background-image: url("../images/pastel.jpg");
   background-size: cover;
-
-  background-position: 80%;
+  
   padding: 100px 70px;
   margin:40px;
+  flex-grow: 1;
 }
 
 .run{
@@ -188,10 +206,10 @@ main{
   background-image: url("../images/run.jpg"); 
   background-size: cover;
 
-  background-position: 80%;
+
   padding: 100px 70px;
   margin:40px;
-
+  flex-grow: 1;
 }
 
 
@@ -199,26 +217,40 @@ main{
 
 
 .contact-section{
-  display: inline-flex;
-  border: 10px;
-  padding:10px;
-  margin:20px;
-  background-color: yellow;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  
 }
 .contact-section h1{
-  color:purple;
-  border-right: 2px solid black;
+  color: blue;
+  float:left;
+  font-size: 30px;
+  text-align: right;
+  padding: 20px 20px 20px 90px;
+  
+}
 
+.contact-buttons{
+  
+
+  padding: 0px 100px 20px 30px;
+ 
+  border-left: 4px solid rgb(62, 7, 99);
+  
 }
 
 .contact-button a{
   text-decoration: underline 3px;
+  border: 20px;
+  
 }
 
 .resume-section{
   display: flex;
+  flex-wrap: wrap;
   border: 10px;
   padding:10px;
   margin:20px;
-  background-color: yellow;
+ 
 }
