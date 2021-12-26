@@ -137,32 +137,42 @@ main{
 }
 .work-content{
   
-  flex-wrap: wrap;
-  flex-grow: 2;
+flex-wrap: wrap;
+flex-grow: 1;
 
   border-left: 4px solid rgb(62, 7, 99);
   
   padding: 0px 20px 20px 20px;
+ 
   
   
 }
 
 .surf{
-  border: 2mm solid lightblue;
+  border: 10px solid lightblue;
   background-image: url("../images/surf.jpg");
   background-size:cover;
- 
-  padding: 100px 70px;
-  margin:40px;
 
+  margin:10px;
+  height: 600px;
 }
- .surfposition{
+.surf-position{
    background-color: lightblue;
-   padding: 20px;
-    float:left;
-    
- }
-
+   padding: 10px;
+    position:relative;
+    top:470px;
+    float: left;
+}
+.surf-position h3{
+  font-size: 30px;
+  font-weight: 500;
+  
+}
+.surf-text{
+  font-weight: 100;
+  margin-top: 10px;
+  
+}
 .row4{
   
 }
@@ -170,53 +180,131 @@ main{
 .row2{
   display: flex;
   flex-wrap: wrap;
-  flex-grow: 1;
+
+ 
+  
 }
 
 .led{
-  border: 2mm solid lightblue;
+  border: 10px solid lightblue;
   background-image: url("../images/led.jpg");
   background-size: cover;
 
-  padding: 100px 70px;
-  margin:40px;
+  margin: 10px;
   flex-grow: 1;
-  
-  
+  height: 250px;
+  padding-right: 90px;
+}
+.led-position{
+  background-color: lightblue;
+  padding: 10px;
+   position:relative;
+   top:120px;
+   float: left;
+   
+}
+.led-position h3{
+ font-size: 30px;
+ font-weight: 500;
+ 
+ 
+}
+.led-text{
+ font-weight: 100;
+ margin-top: 10px;
+ 
+ 
 }
 
 .calculator{
-  border: 2mm solid lightblue;
+  border: 10px solid lightblue;
   background-image: url("../images/calculator.jpg");
   background-size: cover;
-  padding: 100px 70px;
-  margin:40px;
+margin: 10px;
+
   flex-grow: 1;
-  
+  height: 250px;
+  padding-right: 50px;
 }
+.calculator-position{
+  background-color: lightblue;
+  padding: 10px;
+   position:relative;
+   top:120px;
+   float: left;
+}
+.calculator-position h3{
+ font-size: 30px;
+ font-weight: 500;
+ 
+}
+.calculator-text{
+ font-weight: 100;
+ margin-top: 10px;
+ 
+}
+
 
 
 .pastel{
-  border: 2mm solid lightblue;
+  border: 10px solid lightblue;
   background-image: url("../images/pastel.jpg");
   background-size: cover;
   
-  padding: 100px 70px;
-  margin:40px;
+
+  margin: 10px;
   flex-grow: 1;
+  height: 250px;
+
 }
+
+.pastel-position{
+  background-color: lightblue;
+  padding: 10px;
+   position:relative;
+   top:120px;
+   float: left;
+}
+.pastel-position h3{
+ font-size: 30px;
+ font-weight: 500;
+ 
+}
+.pastel-text{
+ font-weight: 100;
+ margin-top: 10px;
+ 
+}
+
 
 .run{
-  border: 2mm solid lightblue;
+  border: 10px solid lightblue;
   background-image: url("../images/run.jpg"); 
   background-size: cover;
+  margin: 10px;
 
-
-  padding: 100px 70px;
-  margin:40px;
   flex-grow: 1;
+  height: 250px;
+  padding-right: 50px;
 }
 
+.run-position{
+  background-color: lightblue;
+  padding: 10px;
+   position:relative;
+   top:120px;
+   float: left;
+}
+.run-position h3{
+ font-size: 30px;
+ font-weight: 500;
+ 
+}
+.run-text{
+ font-weight: 100;
+ margin-top: 10px;
+ 
+}
 
 
 
