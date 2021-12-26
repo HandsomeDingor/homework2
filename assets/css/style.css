@@ -31,30 +31,39 @@ header a {
 
   padding: 10% right;
   text-decoration: none;
-  
+
 }
 
 header nav {
-  margin-top: 30px;
+  margin:15px 0px 15px 0px;
   text-align: center;
+  padding-right: 70px;
+
 }
 
 header nav ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-
+  
   list-style: none;
  
 }
 
+header nav ul li{
+  padding: 20px 5px 5px 20px;
+  
+}
+
 header nav ul li a {
 
-  padding: 20px;
+
   font-size: 1.55vw;
   color: lightblue;
-  text-decoration: underline 3px;
+  
   align-items: center;
+  border-bottom: 4px solid lightblue;
+  padding: 10px 10px 3px 10px;
+ 
 }
 
 .cool-subtitle-here{
@@ -93,7 +102,7 @@ main{
 
 
 .aboutme-title {
-  color: blue;
+  color: rgb(75, 72, 72);
   float:left;
   font-size: 30px;
   text-align: right;
@@ -115,12 +124,11 @@ main{
 }
 .works{
   display: flex;
-  flex-wrap: wrap;
   width: 100%;
 }
 
 .work-title{
-  color: blue;
+  color:rgb(75, 72, 72);
   float:left;
   font-size: 30px;
   text-align: right;
@@ -315,7 +323,7 @@ margin: 10px;
   
 }
 .contact-section h1{
-  color: blue;
+  color: rgb(75, 72, 72);
   float:left;
   font-size: 30px;
   text-align: right;
@@ -375,12 +383,3 @@ margin: 10px;
   
 }
 
-
-.resume-section{
-  display: flex;
-  flex-wrap: wrap;
-  border: 10px;
-  padding:10px;
-  margin:20px;
- 
-}
