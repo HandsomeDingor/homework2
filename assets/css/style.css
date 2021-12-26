@@ -156,6 +156,13 @@ main{
   margin:40px;
 
 }
+ .surfposition{
+   background-color: lightblue;
+   padding: 20px;
+    float:left;
+    
+ }
+
 .row4{
   
 }
@@ -182,8 +189,6 @@ main{
   border: 2mm solid lightblue;
   background-image: url("../images/calculator.jpg");
   background-size: cover;
-
-
   padding: 100px 70px;
   margin:40px;
   flex-grow: 1;
@@ -218,8 +223,7 @@ main{
 
 .contact-section{
   padding-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
+ 
   
 }
 .contact-section h1{
@@ -232,19 +236,57 @@ main{
 }
 
 .contact-buttons{
-  
+ display: flex;
+ flex-wrap: wrap;
+  font-size:23px;
 
-  padding: 0px 100px 20px 30px;
+  padding: 15px 100px 15px 30px;
  
   border-left: 4px solid rgb(62, 7, 99);
+  justify-content: space-around;
+
+  
+}
+.contact-buttons a{
+  text-decoration: none;
+  
+  
+ 
+}
+
+
+.tel{
+  
+  margin: 10px 10px 10px 10px;
+  border-bottom: 4px solid rgb(62, 7, 99);
+  padding: 8px;
+  
+}
+.email{
+  margin: 10px 10px 10px 10px;
+  border-bottom: 4px solid rgb(62, 7, 99);
+  padding: 8px;
+  
+}
+.github{
+  margin: 10px 10px 10px 10px;
+  border-bottom: 4px solid rgb(62, 7, 99);
+  padding: 8px;
+  
+}
+.twitter{
+  margin: 10px 10px 10px 10px;
+  border-bottom: 4px solid rgb(62, 7, 99);
+  padding: 8px;
+  
+}
+.spotify{
+  margin: 10px 10px 10px 10px;
+  border-bottom: 4px solid rgb(62, 7, 99);
+  padding: 8px;
   
 }
 
-.contact-button a{
-  text-decoration: underline 3px;
-  border: 20px;
-  
-}
 
 .resume-section{
   display: flex;
