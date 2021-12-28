@@ -163,6 +163,10 @@ flex-grow: 1;
 
   margin:10px;
   height: 600px;
+  opacity: 0.5;
+}
+.surf:hover{
+  opacity: 1;
 }
 .surf-position{
    background-color: lightblue;
@@ -182,22 +186,29 @@ flex-grow: 1;
   
 }
 .row4{
-  
+
 }
 
 .row2{
   display: flex;
   flex-wrap: wrap;
 
- 
-  
 }
 
+.led-image{
+
+  position:relative;
+  opacity: 0.5;
+  flex-grow: 1;
+  
+}
+.led-image:hover{
+  opacity: 1;
+}
 .led{
   border: 10px solid lightblue;
   background-image: url("../images/led.jpg");
   background-size: cover;
-
   margin: 10px;
   flex-grow: 1;
   height: 250px;
@@ -209,6 +220,7 @@ flex-grow: 1;
    position:relative;
    top:120px;
    float: left;
+   
    
 }
 .led-position h3{
@@ -224,15 +236,25 @@ flex-grow: 1;
  
 }
 
+.calculator-image{
+
+  opacity: 0.5;
+  flex-grow: 1;
+  
+}
+
+.calculator-image:hover{
+  opacity: 1;
+}
 .calculator{
   border: 10px solid lightblue;
   background-image: url("../images/calculator.jpg");
   background-size: cover;
-margin: 10px;
-
-  flex-grow: 1;
   height: 250px;
   padding-right: 50px;
+  margin: 10px;
+  
+  
 }
 .calculator-position{
   background-color: lightblue;
@@ -253,6 +275,16 @@ margin: 10px;
 }
 
 
+.pastel-image{
+  position:relative;
+  opacity: 0.5;
+  flex-grow: 1;
+  
+}
+
+.pastel-image:hover{
+  opacity: 1;
+}
 
 .pastel{
   border: 10px solid lightblue;
@@ -261,9 +293,10 @@ margin: 10px;
   
 
   margin: 10px;
-  flex-grow: 1;
-  height: 250px;
 
+  height: 250px;
+ 
+  flex-grow: 1;
 }
 
 .pastel-position{
@@ -284,16 +317,26 @@ margin: 10px;
  
 }
 
+.run-image{
+position: relative;
+  opacity: 0.5;
+  flex-grow: 1;
+  
+}
 
+.run-image:hover{
+  opacity: 1;
+}
 .run{
   border: 10px solid lightblue;
   background-image: url("../images/run.jpg"); 
   background-size: cover;
   margin: 10px;
-
-  flex-grow: 1;
+  
   height: 250px;
   padding-right: 50px;
+ 
+  flex-grow: 1;
 }
 
 .run-position{
