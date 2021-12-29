@@ -431,3 +431,61 @@ position: relative;
   
 }
 
+@media only screen and (max-width: 600px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+.about-me{
+  display:grid;
+align-content:center;
+
+}
+.aboutme-text{
+  border:none;
+  border-top:4px solid darkslategray;
+}
+.aboutme-title h1{
+
+flex-wrap: nowrap;
+
+}
+.works{
+  display:grid;
+  align-content:center;
+}
+.work-content{
+  border:none;
+  border: top:4px  solid darkslategray;
+}
+.row2{
+  flex-direction: column;
+}
+
+.contact-section{
+  display:grid;
+  align-content:center;
+}
+.contact-buttons{
+  border:none;
+  border-top:4px solid darkslategray;
+  flex-direction: column;
+}
+
