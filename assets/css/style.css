@@ -458,6 +458,9 @@ position: relative;
 align-content:center;
 
 }
+.aboutme-title{
+  width: 100%;
+}
 .aboutme-text{
   border:none;
   border-top:4px solid darkslategray;
@@ -482,6 +485,9 @@ flex-wrap: nowrap;
 .contact-section{
   display:grid;
   align-content:center;
+}
+.contact-title{
+  width: 100%;
 }
 .contact-buttons{
   border:none;
