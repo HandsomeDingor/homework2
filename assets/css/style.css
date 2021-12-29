@@ -431,6 +431,96 @@ position: relative;
   
 }
 
+@media only screen and (max-width: 806px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+
+  header h1 {
+    width: 100%;
+   
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+.about-me{
+  display:grid;
+
+
+}
+.aboutme-title{
+  width: 100%;
+}
+.aboutme-text{
+  border:none;
+  border-top:4px solid darkslategray;
+  margin:30px
+}
+.aboutme-title h1{
+
+flex-wrap: nowrap;
+float:none;
+padding:0;
+margin:0 auto;
+text-align: center;
+
+}
+.works{
+  display:grid;
+ margin:10px;
+}
+
+.work-title h1{
+  float:none;
+  padding:0;
+  margin:0 auto;
+  text-align: center;
+ 
+}
+.work-title{
+  padding-bottom: 20px;
+}
+.work-content{
+  border:none;
+  border-top:4px  solid darkslategray;
+}
+.row2{
+  flex-direction: column;
+}
+
+.contact-section{
+  display:grid;
+
+}
+.contact-title{
+  width: 100%;
+  
+}
+.contact-title h1{
+  float:none;
+  padding:0;
+  margin:0 auto;
+  text-align: center;
+}
+.contact-buttons{
+  border:none;
+  border-top:4px solid darkslategray;
+  flex-direction: column;
+  align-items: center;
+  margin:30px;
+}
+
+
 @media only screen and (max-width: 600px) {
   header {
     padding-bottom: 0;
@@ -440,7 +530,7 @@ position: relative;
 
   header h1 {
     width: 100%;
-    text-align: center;
+   
   }
 
   header nav ul {
@@ -457,9 +547,11 @@ position: relative;
   display:grid;
 align-content:center;
 
+
 }
 .aboutme-title{
   width: 100%;
+ 
 }
 .aboutme-text{
   border:none;
@@ -468,11 +560,22 @@ align-content:center;
 .aboutme-title h1{
 
 flex-wrap: nowrap;
+padding:0;
+margin:0 auto;
+  text-align: center;
 
 }
 .works{
   display:grid;
-  align-content:center;
+ 
+}
+
+.work-title h1{
+  float:none;
+ padding:0;
+ margin:0 auto;
+ text-align: center;
+ 
 }
 .work-content{
   border:none;
@@ -488,10 +591,17 @@ flex-wrap: nowrap;
 }
 .contact-title{
   width: 100%;
+ 
 }
+.contact-title h1{
+  padding:0;
+  text-align: center;
+}
+
 .contact-buttons{
   border:none;
   border-top:4px solid darkslategray;
   flex-direction: column;
+  align-items: center;
 }
 
