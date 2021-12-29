@@ -102,12 +102,15 @@ main{
 
 
 .aboutme-title {
+width: 1px;
+  
+}
+.aboutme-title h1{
   color: rgb(75, 72, 72);
   float:left;
-  font-size: 30px;
+  font-size: 40px;
   text-align: right;
   padding: 20px 20px 20px 72px;
-  
 }
 
 .aboutme-text{
@@ -128,11 +131,7 @@ main{
 }
 
 .work-title{
-  color:rgb(75, 72, 72);
-  float:left;
-  font-size: 30px;
-  text-align: right;
-  padding: 20px 20px 20px 70px;
+
   
  
   
@@ -140,7 +139,11 @@ main{
 
 .work-title h1{
 
-  
+  color:rgb(75, 72, 72);
+  float:left;
+  font-size: 40px;
+  text-align: right;
+  padding: 20px 20px 20px 70px;
  
 }
 .work-content{
@@ -359,18 +362,20 @@ position: relative;
 
 
 
-
 .contact-section{
-  padding-top: 20px;
- 
+  
+  flex-wrap: wrap;
   
 }
-.contact-section h1{
+.contact-title{
+  width: 1px;
+}
+.contact-title h1{
   color: rgb(75, 72, 72);
   float:left;
-  font-size: 30px;
+  font-size: 40px;
   text-align: right;
-  padding: 20px 20px 20px 90px;
+  padding: 0px 20px 20px 40px;
   
 }
 
