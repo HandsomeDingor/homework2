@@ -605,3 +605,18 @@ margin:0 auto;
   align-items: center;
 }
 
+@media only screen and (max-width: 473px) {
+  .cool-subtitle-here{
+    
+  }
+  
+  #subtitle{
+  float:none;
+
+  
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+  }
+
+}
