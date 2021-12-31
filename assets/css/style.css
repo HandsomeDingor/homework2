@@ -11,7 +11,7 @@ body {
 /* HEADER / NAV BAR STYLES START */
 
 header {
-  padding: 10px 0px 10px 0px;
+  
   background-color: darkslategray;
   display: flex;
   justify-content: space-between;
@@ -86,7 +86,7 @@ header nav ul li a {
 
 /* HEADER / NAVBAR STYLES END */
 main{
-  width: 100%;
+  
   margin: 5% 0;
   display: block;
   flex-wrap: wrap;
@@ -556,6 +556,8 @@ align-content:center;
 .aboutme-text{
   border:none;
   border-top:4px solid darkslategray;
+  margin: 10px;
+padding: 10px;
 }
 .aboutme-title h1{
 
@@ -580,6 +582,8 @@ margin:0 auto;
 .work-content{
   border:none;
   border-top:4px  solid darkslategray;
+  padding: 0;
+  margin:0;
 }
 .row2{
   flex-direction: column;
@@ -588,27 +592,43 @@ margin:0 auto;
 .contact-section{
   display:grid;
   align-content:center;
+  padding: 20px;
 }
 .contact-title{
-  width: 100%;
+  
  
 }
 .contact-title h1{
-  padding:0;
+
   text-align: center;
 }
 
 .contact-buttons{
+  
   border:none;
   border-top:4px solid darkslategray;
   flex-direction: column;
   align-items: center;
+  padding: 0 10px;
+  margin: 0;
 }
 
 @media only screen and (max-width: 473px) {
+
+  main{
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
   .cool-subtitle-here{
     
   }
+  .work-section{
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
   
   #subtitle{
   float:none;
@@ -618,5 +638,4 @@ margin:0 auto;
     margin: 0;
     padding: 0;
   }
-
 }
