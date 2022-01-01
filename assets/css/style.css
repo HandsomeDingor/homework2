@@ -3,104 +3,72 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   font-family: Helvetica, Arial, sans-serif;
 }
-
 /* HEADER / NAV BAR STYLES START */
-
 header {
-  
   background-color: darkslategray;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 header h1 {
   font-weight: normal;
   font-size: 36px;
   background-color: lightblue;
   padding:5px 5px 5px 50px;
   margin: 7px 0;
-
 }
-
 header a {
-
   padding: 10% right;
   text-decoration: none;
-
 }
-
 header nav {
   margin:15px 0px 15px 0px;
   text-align: center;
   padding-right: 70px;
-
 }
-
 header nav ul {
   display: flex;
   flex-wrap: wrap;
-  
   list-style: none;
- 
 }
-
 header nav ul li{
   padding: 20px 5px 5px 20px;
-  
 }
-
 header nav ul li a {
-
-
   font-size: 1.55vw;
   color: lightblue;
-  
   align-items: center;
   border-bottom: 4px solid lightblue;
   padding: 10px 10px 3px 10px;
- 
 }
-
 .cool-subtitle-here{
   background-image: url("../images/subtitle.jpg");
   background-size:cover;
   background-position: 80%;
   padding: 100px 70px;
 }
-
 #subtitle{
   display: flex;
   background-color: lightblue;
-  font-size: 40px;  
+  font-size: 40px;
   float:right;
   flex-wrap: wrap;
   margin-top: 30px;
   padding: 5px;
 }
-
-
 /* HEADER / NAVBAR STYLES END */
 main{
   margin: 5% 0;
   flex-wrap: wrap;
 }
-
 .aboutme{
-
   display:flex;
-
-  
 }
-
-
 .aboutme-title {
-width: 1px;
-  
+  width: 1px;
 }
 .aboutme-title h1{
   color: rgb(75, 72, 72);
@@ -109,41 +77,30 @@ width: 1px;
   text-align: right;
   padding: 20px 20px 20px 72px;
 }
-
 .aboutme-text{
   display: flex;
   padding: 0px 100px 20px 30px;
   line-height: 1.6;
   border-left: 4px solid rgb(62, 7, 99);
 }
-
 .work-section{
- 
   padding: 20px;
- 
 }
 .works{
   display: flex;
-  
 }
-
 .work-content{
-width: 100%;
+  width: 100%;
   border-left: 4px solid rgb(62, 7, 99);
   padding: 0px 20px 20px 20px;
 }
-
 .work-title h1{
-
   color:rgb(75, 72, 72);
   float:left;
   font-size: 40px;
   text-align: right;
   padding: 20px 20px 20px 70px;
- 
 }
-
-
 .surf{
   border: 10px solid lightblue;
   margin: 10px;
@@ -151,212 +108,157 @@ width: 100%;
   position: relative;
 }
 .surfimage{
-width: 100%;
-height: 100%;
-opacity: 0.3;
-
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
 }
 .surfimage:hover{
   opacity: 1;
 }
-
 .surf-position{
-   background-color: lightblue;
-   padding: 10px;
-    position:absolute;
-    bottom: 20px;
+  background-color: lightblue;
+  padding: 10px;
+  position:absolute;
+  bottom: 20px;
 }
 .surf-position h3{
   font-size: 30px;
   font-weight: 500;
-
 }
 .surf-text{
   font-weight: 100;
   margin-top: 10px;
-  
-  
-}
-
-.row4{
-
-  
 }
 .row2{
- 
- display: flex;
- flex-wrap: wrap;
-
-  
+  display: flex;
+  flex-wrap: wrap;
 }
 .led-image{
   width: 50%;
-  
 }
 .led{
   border: 10px solid lightblue;
   margin:10px;
-  
   height: 250px;
   position: relative;
-  
 }
 .ledimage{
-width: 100%;
-height: 100%;
-opacity: 0.3;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
 }
 .ledimage:hover{
   opacity: 1;
 }
-
 .led-position{
-   background-color: lightblue;
-   padding: 10px;
-    position:absolute;
-    bottom: 20px;
+  background-color: lightblue;
+  padding: 10px;
+  position:absolute;
+  bottom: 20px;
 }
 .led-position h3{
- font-size: 30px;
- font-weight: 500;
- 
- 
+  font-size: 30px;
+  font-weight: 500;
 }
 .led-text{
- font-weight: 100;
- margin-top: 10px;
- 
- 
+  font-weight: 100;
+  margin-top: 10px;
 }
-
 .calculator-image{
   width: 50%;
-  
-  
 }
 .calculator{
-
   border: 10px solid lightblue;
   margin:10px;
-  
   height: 250px;
   position: relative;
-  
 }
 .calculatorimage{
   width: 100%;
-height: 100%;
-opacity: 0.3;
+  height: 100%;
+  opacity: 0.3;
 }
 .calculatorimage:hover{
   opacity: 1;
 }
-
 .calculator-position{
-   background-color: lightblue;
-   padding: 10px;
-    position: absolute;
-    bottom: 20px;
+  background-color: lightblue;
+  padding: 10px;
+  position: absolute;
+  bottom: 20px;
 }
-
 .calculator-position h3{
- font-size: 30px;
- font-weight: 500;
- 
+  font-size: 30px;
+  font-weight: 500;
 }
 .calculator-text{
- font-weight: 100;
- margin-top: 10px;
- 
+  font-weight: 100;
+  margin-top: 10px;
 }
-
-
 .pastel-image{
   width: 50%;
-  
- 
-  
 }
 .pastel{
   border: 10px solid lightblue;
   margin:10px;
-  
   height: 250px;
   position: relative;
- 
 }
 .pastelimage{
-width: 100%;
-height: 100%;
-opacity: 0.3;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
 }
 .pastelimage:hover{
   opacity: 1;
 }
-
 .pastel-position{
-   background-color: lightblue;
-   padding: 10px;
-    position: absolute;
-    bottom: 20px;
+  background-color: lightblue;
+  padding: 10px;
+  position: absolute;
+  bottom: 20px;
 }
-
 .pastel-position h3{
- font-size: 30px;
- font-weight: 500;
- 
+  font-size: 30px;
+  font-weight: 500;
 }
 .pastel-text{
- font-weight: 100;
- margin-top: 10px;
- 
+  font-weight: 100;
+  margin-top: 10px;
 }
-
 .run-image{
   width: 50%;
- 
-  
 }
 .run{
   border: 10px solid lightblue;
   margin:10px;
-
   height: 250px;
   position: relative;
-  
 }
 .runimage{
   width: 100%;
-height: 100%;
-opacity: 0.3;
+  height: 100%;
+  opacity: 0.3;
 }
 .runimage:hover{
   opacity: 1;
 }
-
 .run-position{
-   background-color: lightblue;
-   padding: 10px;
-    position: absolute;
-    bottom: 20px;
+  background-color: lightblue;
+  padding: 10px;
+  position: absolute;
+  bottom: 20px;
 }
-
 .run-position h3{
- font-size: 30px;
- font-weight: 500;
- 
+  font-size: 30px;
+  font-weight: 500;
 }
 .run-text{
- font-weight: 100;
- margin-top: 10px;
- 
+  font-weight: 100;
+  margin-top: 10px;
 }
-
-
 .contact-section{
-  
   flex-wrap: wrap;
-  
 }
 .contact-title{
   width: 1px;
@@ -367,202 +269,163 @@ opacity: 0.3;
   font-size: 40px;
   text-align: right;
   padding: 0px 20px 20px 40px;
-  
 }
-
 .contact-buttons{
- display: flex;
- flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
   font-size:23px;
-
   padding: 15px 100px 15px 30px;
- 
   border-left: 4px solid rgb(62, 7, 99);
   justify-content: space-around;
-
-  
 }
 .contact-buttons a{
   text-decoration: none;
-  
-  
- 
 }
-
-
 .tel{
-  
   margin: 10px 10px 10px 10px;
   border-bottom: 4px solid rgb(62, 7, 99);
   padding: 8px;
-  
 }
 .email{
   margin: 10px 10px 10px 10px;
   border-bottom: 4px solid rgb(62, 7, 99);
   padding: 8px;
-  
 }
 .github{
   margin: 10px 10px 10px 10px;
   border-bottom: 4px solid rgb(62, 7, 99);
   padding: 8px;
-  
 }
 .twitter{
   margin: 10px 10px 10px 10px;
   border-bottom: 4px solid rgb(62, 7, 99);
   padding: 8px;
-  
 }
 .spotify{
   margin: 10px 10px 10px 10px;
   border-bottom: 4px solid rgb(62, 7, 99);
   padding: 8px;
-  
 }
-
 @media only screen and (max-width: 800px) {
   header {
-    padding-bottom: 0;
-    justify-content: center;
-    position: relative;
-  }
-
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+ }
   header h1 {
-    width: 100%;
-    text-align: center;
-padding: 10px;    
-   }
-
+      width: 100%;
+      text-align: center;
+      padding: 10px;
+ }
   header nav{
-    margin:0;
-    padding:0;
-  }
-
+      margin:0;
+      padding:0;
+ }
   header nav ul {
-    width: 100%;
-    justify-content: center;
-  }
-
-header nav ul li{
-  padding: 10px;
-}
-
+      width: 100%;
+      justify-content: center;
+ }
+  header nav ul li{
+      padding: 10px;
+ }
   header nav ul li a {
-    font-size: 20px;
-   
-    border:0;
-  }
-
-.about-me{
-  
-}
-.aboutme-title{
-  width: 100%;
-  padding: 0;
-}
-.aboutme-text{
-  border:none;
-  border-top:4px solid darkslategray;
-  margin:30px;
-  padding: 0;
-}
-.aboutme-title h1{
-
-flex-wrap: nowrap;
-float:none;
-padding:0;
-margin:0 auto;
-text-align: center;
-
-}
-.works{
-  display:grid;
-  margin:10px;
-}
-
-.work-title h1{
-  float:none;
-  padding:0;
-  margin:0 auto;
-  text-align: center;
- 
-}
-.work-title{
-  padding-bottom: 20px;
-}
-.work-content{
-  border:none;
-  border-top:4px  solid darkslategray;
-}
-.row2{
-  flex-direction: column;
-  
-}
-.led-image{
-  width: 100%;
-}.calculator-image{
-  width: 100%;
-}.pastel-image{
-  width: 100%;
-}
-.run-image{
-  width: 100%;
-}
-.contact-section{
-  display:grid;
-
-}
-.contact-title{
-  width: 100%;
-  
-}
-.contact-title h1{
-  float:none;
-  padding:0;
-  margin:0 auto;
-  text-align: center;
-}
-.contact-buttons{
-  border:none;
-  border-top:4px solid darkslategray;
-  flex-direction: column;
-  align-items: center;
-  margin:30px;
-}
-
-
-@media only screen and (max-width: 472px) {
-#subtitle{
-  margin: 0;
-  padding: 0;
-}
-.surf{
-  height: 250px;
-}
-
-
-.contact-section{
-  display:grid;
-  align-content:center;
-  margin: 20px;
-}
-.contact-title{
-  
- 
-}
-.contact-title h1{
-
-  text-align: center;
-}
-
-.contact-buttons{
-  
-  border:none;
-  border-top:4px solid darkslategray;
-  flex-direction: column;
-  align-items: center;
-  padding: 0;
-  margin: 0;
-}
+      font-size: 20px;
+      border:0;
+ }
+  .about-me{
+ }
+  .aboutme-title{
+      width: 100%;
+      padding: 0;
+ }
+  .aboutme-text{
+      border:none;
+      border-top:4px solid darkslategray;
+      margin:30px;
+      padding: 0;
+ }
+  .aboutme-title h1{
+      flex-wrap: nowrap;
+      float:none;
+      padding:0;
+      margin:0 auto;
+      text-align: center;
+ }
+  .works{
+      display:grid;
+      margin:10px;
+ }
+  .work-title h1{
+      float:none;
+      padding:0;
+      margin:0 auto;
+      text-align: center;
+ }
+  .work-title{
+      padding-bottom: 20px;
+ }
+  .work-content{
+      border:none;
+      border-top:4px solid darkslategray;
+ }
+  .row2{
+      flex-direction: column;
+ }
+  .led-image{
+      width: 100%;
+ }
+ .calculator-image{
+      width: 100%;
+ }
+ .pastel-image{
+      width: 100%;
+ }
+  .run-image{
+      width: 100%;
+ }
+  .contact-section{
+      display:grid;
+ }
+  .contact-title{
+      width: 100%;
+ }
+  .contact-title h1{
+      float:none;
+      padding:0;
+      margin:0 auto;
+      text-align: center;
+ }
+  .contact-buttons{
+      border:none;
+      border-top:4px solid darkslategray;
+      flex-direction: column;
+      align-items: center;
+      margin:30px;
+ }
+  @media only screen and (max-width: 472px) {
+      #subtitle{
+          margin: 0;
+          padding: 0;
+     }
+      .surf{
+          height: 250px;
+     }
+      .contact-section{
+          display:grid;
+          align-content:center;
+          margin: 20px;
+     }
+      .contact-title{
+     }
+      .contact-title h1{
+          text-align: center;
+     }
+      .contact-buttons{
+          border:none;
+          border-top:4px solid darkslategray;
+          flex-direction: column;
+          align-items: center;
+          padding: 0;
+          margin: 0;
+     }
+      
