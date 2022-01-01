@@ -166,7 +166,7 @@ flex-grow: 1;
 
   margin:10px;
   height: 600px;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 .surf:hover{
   opacity: 1;
@@ -177,6 +177,8 @@ flex-grow: 1;
     position:relative;
     top:470px;
     float: left;
+
+    
 }
 .surf-position h3{
   font-size: 30px;
@@ -186,6 +188,7 @@ flex-grow: 1;
 .surf-text{
   font-weight: 100;
   margin-top: 10px;
+  
   
 }
 .row4{
@@ -201,7 +204,7 @@ flex-grow: 1;
 .led-image{
 
   position:relative;
-  opacity: 0.5;
+  opacity: 0.7;
   flex-grow: 1;
   
 }
@@ -241,7 +244,7 @@ flex-grow: 1;
 
 .calculator-image{
 
-  opacity: 0.5;
+  opacity: 0.7;
   flex-grow: 1;
   
 }
@@ -280,7 +283,7 @@ flex-grow: 1;
 
 .pastel-image{
   position:relative;
-  opacity: 0.5;
+  opacity: 0.7;
   flex-grow: 1;
   
 }
@@ -322,7 +325,7 @@ flex-grow: 1;
 
 .run-image{
 position: relative;
-  opacity: 0.5;
+  opacity: 0.7;
   flex-grow: 1;
   
 }
@@ -440,7 +443,7 @@ position: relative;
 
   header h1 {
     width: 100%;
-   
+    text-align: center;
   }
 
   header nav ul {
@@ -592,7 +595,6 @@ margin:0 auto;
 .contact-section{
   display:grid;
   align-content:center;
-  padding: 20px;
 }
 .contact-title{
   
@@ -609,7 +611,7 @@ margin:0 auto;
   border-top:4px solid darkslategray;
   flex-direction: column;
   align-items: center;
-  padding: 0 10px;
+  padding: 0;
   margin: 0;
 }
 
