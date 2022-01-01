@@ -86,11 +86,8 @@ header nav ul li a {
 
 /* HEADER / NAVBAR STYLES END */
 main{
-  
   margin: 5% 0;
-  display: block;
   flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 .aboutme{
@@ -123,18 +120,17 @@ width: 1px;
 .work-section{
  
   padding: 20px;
-  
+ 
 }
 .works{
   display: flex;
-  width: 100%;
+  
 }
 
-.work-title{
-
-  
- 
-  
+.work-content{
+width: 100%;
+  border-left: 4px solid rgb(62, 7, 99);
+  padding: 0px 20px 20px 20px;
 }
 
 .work-title h1{
@@ -146,44 +142,34 @@ width: 1px;
   padding: 20px 20px 20px 70px;
  
 }
-.work-content{
-  
-flex-wrap: wrap;
-flex-grow: 1;
 
-  border-left: 4px solid rgb(62, 7, 99);
-  
-  padding: 0px 20px 20px 20px;
- 
-  
-  
-}
 
 .surf{
   border: 10px solid lightblue;
-  background-image: url("../images/surf.jpg");
-  background-size:cover;
-
-  margin:10px;
+  margin: 10px;
   height: 600px;
-  opacity: 0.7;
+  position: relative;
 }
-.surf:hover{
+.surfimage{
+width: 100%;
+height: 100%;
+opacity: 0.3;
+
+}
+.surfimage:hover{
   opacity: 1;
 }
+
 .surf-position{
    background-color: lightblue;
    padding: 10px;
-    position:relative;
-    top:470px;
-    float: left;
-
-    
+    position:absolute;
+    bottom: 20px;
 }
 .surf-position h3{
   font-size: 30px;
   font-weight: 500;
-  
+
 }
 .surf-text{
   font-weight: 100;
@@ -191,43 +177,44 @@ flex-grow: 1;
   
   
 }
+
 .row4{
 
-}
-
-.row2{
-  display: flex;
-  flex-wrap: wrap;
-
-}
-
-.led-image{
-
-  position:relative;
-  opacity: 0.7;
-  flex-grow: 1;
   
 }
-.led-image:hover{
-  opacity: 1;
+.row2{
+ 
+ display: flex;
+ flex-wrap: wrap;
+
+  
+}
+.led-image{
+  width: 50%;
+  
 }
 .led{
   border: 10px solid lightblue;
-  background-image: url("../images/led.jpg");
-  background-size: cover;
-  margin: 10px;
-  flex-grow: 1;
+  margin:10px;
+  
   height: 250px;
-  padding-right: 90px;
+  position: relative;
+  
 }
+.ledimage{
+width: 100%;
+height: 100%;
+opacity: 0.3;
+}
+.ledimage:hover{
+  opacity: 1;
+}
+
 .led-position{
-  background-color: lightblue;
-  padding: 10px;
-   position:relative;
-   top:120px;
-   float: left;
-   
-   
+   background-color: lightblue;
+   padding: 10px;
+    position:absolute;
+    bottom: 20px;
 }
 .led-position h3{
  font-size: 30px;
@@ -243,32 +230,35 @@ flex-grow: 1;
 }
 
 .calculator-image{
-
-  opacity: 0.7;
-  flex-grow: 1;
+  width: 50%;
   
-}
-
-.calculator-image:hover{
-  opacity: 1;
+  
 }
 .calculator{
+
   border: 10px solid lightblue;
-  background-image: url("../images/calculator.jpg");
-  background-size: cover;
+  margin:10px;
+  
   height: 250px;
-  padding-right: 50px;
-  margin: 10px;
-  
+  position: relative;
   
 }
+.calculatorimage{
+  width: 100%;
+height: 100%;
+opacity: 0.3;
+}
+.calculatorimage:hover{
+  opacity: 1;
+}
+
 .calculator-position{
-  background-color: lightblue;
-  padding: 10px;
-   position:relative;
-   top:120px;
-   float: left;
+   background-color: lightblue;
+   padding: 10px;
+    position: absolute;
+    bottom: 20px;
 }
+
 .calculator-position h3{
  font-size: 30px;
  font-weight: 500;
@@ -282,36 +272,35 @@ flex-grow: 1;
 
 
 .pastel-image{
-  position:relative;
-  opacity: 0.7;
-  flex-grow: 1;
+  width: 50%;
+  
+ 
   
 }
-
-.pastel-image:hover{
+.pastel{
+  border: 10px solid lightblue;
+  margin:10px;
+  
+  height: 250px;
+  position: relative;
+ 
+}
+.pastelimage{
+width: 100%;
+height: 100%;
+opacity: 0.3;
+}
+.pastelimage:hover{
   opacity: 1;
 }
 
-.pastel{
-  border: 10px solid lightblue;
-  background-image: url("../images/pastel.jpg");
-  background-size: cover;
-  
-
-  margin: 10px;
-
-  height: 250px;
- 
-  flex-grow: 1;
-}
-
 .pastel-position{
-  background-color: lightblue;
-  padding: 10px;
-   position:relative;
-   top:120px;
-   float: left;
+   background-color: lightblue;
+   padding: 10px;
+    position: absolute;
+    bottom: 20px;
 }
+
 .pastel-position h3{
  font-size: 30px;
  font-weight: 500;
@@ -324,34 +313,34 @@ flex-grow: 1;
 }
 
 .run-image{
-position: relative;
-  opacity: 0.7;
-  flex-grow: 1;
+  width: 50%;
+ 
   
-}
-
-.run-image:hover{
-  opacity: 1;
 }
 .run{
   border: 10px solid lightblue;
-  background-image: url("../images/run.jpg"); 
-  background-size: cover;
-  margin: 10px;
-  
+  margin:10px;
+
   height: 250px;
-  padding-right: 50px;
- 
-  flex-grow: 1;
+  position: relative;
+  
+}
+.runimage{
+  width: 100%;
+height: 100%;
+opacity: 0.3;
+}
+.runimage:hover{
+  opacity: 1;
 }
 
 .run-position{
-  background-color: lightblue;
-  padding: 10px;
-   position:relative;
-   top:120px;
-   float: left;
+   background-color: lightblue;
+   padding: 10px;
+    position: absolute;
+    bottom: 20px;
 }
+
 .run-position h3{
  font-size: 30px;
  font-weight: 500;
@@ -362,7 +351,6 @@ position: relative;
  margin-top: 10px;
  
 }
-
 
 
 .contact-section{
@@ -434,7 +422,7 @@ position: relative;
   
 }
 
-@media only screen and (max-width: 806px) {
+@media only screen and (max-width: 800px) {
   header {
     padding-bottom: 0;
     justify-content: center;
@@ -444,30 +432,41 @@ position: relative;
   header h1 {
     width: 100%;
     text-align: center;
+padding: 10px;    
+   }
+
+  header nav{
+    margin:0;
+    padding:0;
   }
 
   header nav ul {
-    margin-top: 20px;
     width: 100%;
     justify-content: center;
   }
 
+header nav ul li{
+  padding: 10px;
+}
+
   header nav ul li a {
     font-size: 20px;
+   
+    border:0;
   }
 
 .about-me{
-  display:grid;
-
-
+  
 }
 .aboutme-title{
   width: 100%;
+  padding: 0;
 }
 .aboutme-text{
   border:none;
   border-top:4px solid darkslategray;
-  margin:30px
+  margin:30px;
+  padding: 0;
 }
 .aboutme-title h1{
 
@@ -480,7 +479,7 @@ text-align: center;
 }
 .works{
   display:grid;
- margin:10px;
+  margin:10px;
 }
 
 .work-title h1{
@@ -499,8 +498,18 @@ text-align: center;
 }
 .row2{
   flex-direction: column;
+  
 }
-
+.led-image{
+  width: 100%;
+}.calculator-image{
+  width: 100%;
+}.pastel-image{
+  width: 100%;
+}
+.run-image{
+  width: 100%;
+}
 .contact-section{
   display:grid;
 
@@ -524,77 +533,20 @@ text-align: center;
 }
 
 
-@media only screen and (max-width: 600px) {
-  header {
-    padding-bottom: 0;
-    justify-content: center;
-    position: relative;
-  }
-
-  header h1 {
-    width: 100%;
-   
-  }
-
-  header nav ul {
-    margin-top: 20px;
-    width: 100%;
-    justify-content: center;
-  }
-
-  header nav ul li a {
-    font-size: 20px;
-  }
-
-.about-me{
-  display:grid;
-align-content:center;
-
-
-}
-.aboutme-title{
-  width: 100%;
- 
-}
-.aboutme-text{
-  border:none;
-  border-top:4px solid darkslategray;
-  margin: 10px;
-padding: 10px;
-}
-.aboutme-title h1{
-
-flex-wrap: nowrap;
-padding:0;
-margin:0 auto;
-  text-align: center;
-
-}
-.works{
-  display:grid;
- 
-}
-
-.work-title h1{
-  float:none;
- padding:0;
- margin:0 auto;
- text-align: center;
- 
-}
-.work-content{
-  border:none;
-  border-top:4px  solid darkslategray;
+@media only screen and (max-width: 472px) {
+#subtitle{
+  margin: 0;
   padding: 0;
-  margin:0;
 }
-.row2{
-  flex-direction: column;
+.surf{
+  height: 250px;
 }
+
 
 .contact-section{
   display:grid;
   align-content:center;
+  margin: 20px;
 }
 .contact-title{
   
@@ -613,31 +565,4 @@ margin:0 auto;
   align-items: center;
   padding: 0;
   margin: 0;
-}
-
-@media only screen and (max-width: 473px) {
-
-  main{
-    display: flex;
-    flex-wrap: wrap;
-  
-  }
-  .cool-subtitle-here{
-    
-  }
-  .work-section{
-    margin: 0;
-    padding: 0;
-    border: 0;
-  }
-
-  
-  #subtitle{
-  float:none;
-
-  
-    flex-wrap: nowrap;
-    margin: 0;
-    padding: 0;
-  }
 }
